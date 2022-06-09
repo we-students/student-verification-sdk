@@ -22,11 +22,9 @@ The WeStudents Student Verification SDK allows to verify student identity throug
 
 The following schema describe the process for student verification:
 
-![student verification flow](./flow.png "student verification flow").
+![student verification flow](./flow.png "student verification flow")
 
-
-> **WARNING**
-> For asynchronous processes (3 and 4) the final result of the request will be sent to client through the webhook endpoint inserted in enrollment phase.
+> :warning: **WARNING**: For asynchronous processes (3 and 4) the final result of the request will be sent to client through the webhook endpoint inserted in enrollment phase.
 
 ## Getting Started
 
