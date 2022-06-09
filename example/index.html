@@ -59,7 +59,7 @@
         <script>
             function verify() {
                 StudentVerificationSDK.init({
-                    apiKey: 'test-key-fa80f43deadr',
+                    apiKey: 'YOUR-API-KEY',
                     onCompleted: ({ userId, verified, status }) => {
                         document.getElementById('user').innerHTML = `User ID: ${userId}`
                         if (verified) {
